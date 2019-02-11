@@ -41,18 +41,6 @@ ol{
 	word-wrap: break-word;
 }
 
-/*img{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}*/
-
-.group-pic, .types{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
 footer{
 	background-color: #d60024;
 	padding: 15px;
@@ -79,10 +67,11 @@ a.skip-to-main:focus{
 	padding:10px;
 }
 
-.main-txt{
+.main-txt, ol{
 	padding: 60px;
 	color: #af001d;
 	font-size: 75%;
+	word-wrap: break-word;
 	background-image: radial-gradient(#ffffff, #ffffff, #fffcfc, transparent);
 }
 
@@ -95,23 +84,26 @@ a.skip-to-main:focus{
 	width: 20%;
 }
 
-.gallery{
-	display: flex;
-	flex-wrap: wrap;
+.group-pic, .types{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-.gallery img{
-	height:25%;
-	width: 25%;
-}
-
-.mckclown{
+.gallery, .mckclown{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 }
 
+.gallery img{
+	height:25%;
+	width: 25%;
+	padding: 2px;
+}
+
 .mckclown img{
-	height: 50%;
-	width: 50%
+	height: 49%;
+	width: 49%;
+	padding: 2px;
 }
