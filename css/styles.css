@@ -8,6 +8,7 @@ nav{
 	display: block;
 	text-align: center;
 	font-size: 140%;
+	margin-top: 30px;
 }
 
 nav li{
@@ -46,14 +47,15 @@ footer{
 }
 
 a.skip-to-main{
+	top: -500px;
 	left:-1000px;
     position:absolute;
 }
 
 a.skip-to-main:focus{
-	left: 0;
+	left: 2%;
     top: 0;
-    margin: 20px;
+    margin-top: 10%;
     padding: 5px;
     border:4px solid red;
     color: #ffffff;
