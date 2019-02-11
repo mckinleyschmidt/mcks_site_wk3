@@ -7,10 +7,7 @@ body{
 nav{
 	display: block;
 	text-align: center;
-}
-
-nav ul{
-	padding:11px;
+	font-size: 140%;
 }
 
 nav li{
@@ -19,20 +16,38 @@ nav li{
 	background-color: #ffffff;
 }
 
-h1{
+nav a{
+	text-decoration: none;
+	color: #d60024;
+}
+
+h1, h2, h3{
 	text-align: center;
+	padding: 80px;
 }
 
 main{
-	margin-left: 10%;
-	margin-right: 10%;
+	margin: 10%;
+	margin-top: 0;
+}
+
+span{
+	padding: 40px;
+	color: #af001d;
+	background-image: radial-gradient(#ffffff, #fffcfc, transparent);
 }
 
 ol{
 	word-wrap: break-word;
 }
 
-img{
+/*img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}*/
+
+.group-pic, .types{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -40,20 +55,14 @@ img{
 
 footer{
 	background-color: #d60024;
+	padding: 15px;
+	font-size: 50%;
 	color: #ffffff;
 	text-align: center;
 }
 
-.active{
-	background-color: #d60024;
-	color: #ffffff;
-	padding:10px;
-	border:2px solid blue;
-}
-
-
 a.skip-to-main{
-	left:-500px;
+	left:-1000px;
     position:absolute;
 }
 
@@ -64,8 +73,22 @@ a.skip-to-main:focus{
     background-color:#ffffff;
 }
 
-.fp_img{
+.active{
+	background-color: #d60024;
+	color: #ffffff;
+	padding:10px;
+}
+
+.main-txt{
+	padding: 60px;
+	color: #af001d;
+	font-size: 75%;
+	background-image: radial-gradient(#ffffff, #ffffff, #fffcfc, transparent);
+}
+
+.fp-img{
 	display: block;
+	padding: 50px;
 	margin-left: auto;
 	margin-right: auto;
 	height: 20%;
@@ -75,10 +98,20 @@ a.skip-to-main:focus{
 .gallery{
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: flex-start;
 }
 
 .gallery img{
 	height:25%;
 	width: 25%;
+}
+
+.mckclown{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.mckclown img{
+	height: 50%;
+	width: 50%
 }
